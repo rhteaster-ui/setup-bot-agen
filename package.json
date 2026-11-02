@@ -1,0 +1,33 @@
+{
+  "name": "setup-bot-agen",
+  "version": "1.0.0",
+  "description": "Setup Otomatis WhatsApp Bot Client VPS (Baileys Pairing Code & Antigravity AI Engine)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:restart": "pm2 restart setup-bot-agen",
+    "pm2:stop": "pm2 stop setup-bot-agen",
+    "pm2:logs": "pm2 logs setup-bot-agen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhteaster-ui/setup-bot-agen.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "antigravity",
+    "gemini",
+    "ai",
+    "pairing-code",
+    "vps"
+  ],
+  "author": "rhteaster-ui",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "pino": "^10.4.0"
+  }
+}

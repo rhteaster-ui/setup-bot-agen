@@ -1,0 +1,9 @@
+{
+  "botNumber": "",
+  "ownerNumber": "",
+  "prefix": ".",
+  "defaultAiModel": "gemini-3.8-flash-medium",
+  "agyBin": "agy",
+  "autoRead": false,
+  "typingIndicator": true
+}
